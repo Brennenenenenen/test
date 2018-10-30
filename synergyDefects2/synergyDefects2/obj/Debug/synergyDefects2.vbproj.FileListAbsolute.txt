@@ -1,0 +1,43 @@
+C:\Users\brenn\AppData\Local\Temporary Projects\synergyDefects2\bin\Debug\synergyDefects2.exe.config
+C:\Users\brenn\AppData\Local\Temporary Projects\synergyDefects2\bin\Debug\synergyDefects2.exe
+C:\Users\brenn\AppData\Local\Temporary Projects\synergyDefects2\bin\Debug\synergyDefects2.pdb
+C:\Users\brenn\AppData\Local\Temporary Projects\synergyDefects2\bin\Debug\synergyDefects2.xml
+C:\Users\brenn\AppData\Local\Temporary Projects\synergyDefects2\obj\Debug\synergyDefects2.vbprojResolveAssemblyReference.cache
+C:\Users\brenn\AppData\Local\Temporary Projects\synergyDefects2\obj\Debug\synergyDefects2.CareyPartsForm.resources
+C:\Users\brenn\AppData\Local\Temporary Projects\synergyDefects2\obj\Debug\synergyDefects2.CustomersForm.resources
+C:\Users\brenn\AppData\Local\Temporary Projects\synergyDefects2\obj\Debug\synergyDefects2.Resources.resources
+C:\Users\brenn\AppData\Local\Temporary Projects\synergyDefects2\obj\Debug\synergyDefects2.NBPartsForm.resources
+C:\Users\brenn\AppData\Local\Temporary Projects\synergyDefects2\obj\Debug\synergyDefects2.vbproj.GenerateResource.Cache
+C:\Users\brenn\AppData\Local\Temporary Projects\synergyDefects2\obj\Debug\synergyDefects2.exe
+C:\Users\brenn\AppData\Local\Temporary Projects\synergyDefects2\obj\Debug\synergyDefects2.xml
+C:\Users\brenn\AppData\Local\Temporary Projects\synergyDefects2\obj\Debug\synergyDefects2.pdb
+C:\Users\brenn\AppData\Local\Temporary Projects\synergyDefects2\obj\Debug\synergyDefects2.Carjk2Form.resources
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\obj\Debug\synergyDefects2.vbprojResolveAssemblyReference.cache
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\obj\Debug\synergyDefects2.CareyPartsForm.resources
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\obj\Debug\synergyDefects2.Carjk2Form.resources
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\obj\Debug\synergyDefects2.CustomersForm.resources
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\obj\Debug\synergyDefects2.Resources.resources
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\obj\Debug\synergyDefects2.NBPartsForm.resources
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\obj\Debug\synergyDefects2.vbproj.GenerateResource.Cache
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\obj\Debug\synergyDefects2.rawload.resources
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\obj\Debug\synergyDefects2.Adminform.resources
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\obj\Debug\synergyDefects2.loadForm.resources
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\obj\Debug\synergyDefects2.Parts.resources
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\obj\Debug\synergyDefects2.chartform.resources
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\bin\Debug\AutomatedSolutions.ASComm.dll
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\bin\Debug\AutomatedSolutions.ASComm.xml
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\bin\Debug\SQS.exe.config
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\bin\Debug\SQS.exe.manifest
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\bin\Debug\SQS.application
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\bin\Debug\SQS.exe
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\bin\Debug\SQS.pdb
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\bin\Debug\SQS.xml
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\obj\Debug\SQS.exe.manifest
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\obj\Debug\SQS.application
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\obj\Debug\SQS.exe
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\obj\Debug\SQS.xml
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\obj\Debug\SQS.pdb
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\obj\Debug\synergyDefects2.hotmap.resources
+C:\Users\brenn\OneDrive\Documents\Visual Studio 2015\Projects\synergyDefects2\synergyDefects2\obj\Debug\synergyDefects2.huningtonparts.resources

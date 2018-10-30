@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{75BCE336-D66D-4E6D-A39E-18E6BAFCDF31}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>synergyDefects2.My.MyApplication</StartupObject>
+    <RootNamespace>synergyDefects2</RootNamespace>
+    <AssemblyName>SQS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\brenn\Desktop\app\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Defect Tracker</ProductName>
+    <ApplicationRevision>18</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SQS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SQS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>741FA6616F1D64C4259B43C68CB0380B301C1EB9</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>synergyDefects2_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>synergy_64.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutomatedSolutions.ASComm, Version=3.8.0.0, Culture=neutral, PublicKeyToken=67272fe3f372ded3, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Windows.Forms.DataVisualization.Design" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adminform.Designer.vb">
+      <DependentUpon>Adminform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Adminform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CareyPartsForm.Designer.vb">
+      <DependentUpon>CareyPartsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CareyPartsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Carjk2Form.Designer.vb">
+      <DependentUpon>Carjk2Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Carjk2Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chartform.Designer.vb">
+      <DependentUpon>chartform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="chartform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crystalParts.Designer.vb">
+      <DependentUpon>crystalParts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="crystalParts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DefectsDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DefectsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hotmap.Designer.vb">
+      <DependentUpon>hotmap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="hotmap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="huningtonparts.Designer.vb">
+      <DependentUpon>huningtonparts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="huningtonparts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loadform.Designer.vb">
+      <DependentUpon>loadform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="loadform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NBPartsForm.Designer.vb">
+      <DependentUpon>NBPartsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NBPartsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rawload.Designer.vb">
+      <DependentUpon>rawload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rawload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="variables.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Adminform.resx">
+      <DependentUpon>Adminform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CareyPartsForm.resx">
+      <DependentUpon>CareyPartsForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Carjk2Form.resx">
+      <DependentUpon>Carjk2Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chartform.resx">
+      <DependentUpon>chartform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crystalParts.resx">
+      <DependentUpon>crystalParts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hotmap.resx">
+      <DependentUpon>hotmap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="huningtonparts.resx">
+      <DependentUpon>huningtonparts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loadform.resx">
+      <DependentUpon>loadform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NBPartsForm.resx">
+      <DependentUpon>NBPartsForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rawload.resx">
+      <DependentUpon>rawload.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DefectsDataSet.xsc">
+      <DependentUpon>DefectsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DefectsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DefectsDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DefectsDataSet.xss">
+      <DependentUpon>DefectsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="synergyDefects2_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cspcarey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cspnb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jeep.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\synergy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ford.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kenworth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crystal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bedrock1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Great White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tigershark1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corevetteleftfender.png" />
+    <None Include="Resources\corvettedeck.png" />
+    <None Include="Resources\corvettelatch.png" />
+    <None Include="Resources\corvetteleftdoor.png" />
+    <None Include="Resources\corvetterightdoor.png" />
+    <None Include="Resources\corvetterightfender.png" />
+    <None Include="Resources\csp_logo.png" />
+    <None Include="Resources\csp_logo1.png" />
+    <None Include="Resources\icons8-people-filled-50.png" />
+    <None Include="Resources\icons8-list-50.png" />
+    <None Include="Resources\icons8-combo-chart-filled-50.png" />
+    <Content Include="synergy_256.ico" />
+    <Content Include="synergy_64.ico" />
+    <Content Include="synergy_win7.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
