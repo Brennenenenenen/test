@@ -33,7 +33,11 @@ Partial Class CareyPartsForm
         Me.btncarjk4 = New System.Windows.Forms.Button()
         Me.btncarjk2 = New System.Windows.Forms.Button()
         Me.lblCarey = New System.Windows.Forms.Label()
-        Me.btncarhome = New System.Windows.Forms.Button()
+        Me.lblnbparts = New System.Windows.Forms.Label()
+        Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
+        Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'lbHino
@@ -83,9 +87,9 @@ Partial Class CareyPartsForm
         'btnCarHino
         '
         Me.btnCarHino.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.btnCarHino.Location = New System.Drawing.Point(759, 350)
+        Me.btnCarHino.Location = New System.Drawing.Point(737, 350)
         Me.btnCarHino.Name = "btnCarHino"
-        Me.btnCarHino.Size = New System.Drawing.Size(75, 23)
+        Me.btnCarHino.Size = New System.Drawing.Size(119, 63)
         Me.btnCarHino.TabIndex = 15
         Me.btnCarHino.Text = "Fenders"
         Me.btnCarHino.UseVisualStyleBackColor = True
@@ -93,9 +97,9 @@ Partial Class CareyPartsForm
         'btncarKen
         '
         Me.btncarKen.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.btncarKen.Location = New System.Drawing.Point(625, 350)
+        Me.btncarKen.Location = New System.Drawing.Point(603, 350)
         Me.btncarKen.Name = "btncarKen"
-        Me.btncarKen.Size = New System.Drawing.Size(75, 23)
+        Me.btncarKen.Size = New System.Drawing.Size(119, 63)
         Me.btncarKen.TabIndex = 14
         Me.btncarKen.Text = "Fenders"
         Me.btncarKen.UseVisualStyleBackColor = True
@@ -103,9 +107,9 @@ Partial Class CareyPartsForm
         'btncarjl4
         '
         Me.btncarjl4.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.btncarjl4.Location = New System.Drawing.Point(479, 395)
+        Me.btncarjl4.Location = New System.Drawing.Point(457, 419)
         Me.btncarjl4.Name = "btncarjl4"
-        Me.btncarjl4.Size = New System.Drawing.Size(75, 23)
+        Me.btncarjl4.Size = New System.Drawing.Size(119, 63)
         Me.btncarjl4.TabIndex = 13
         Me.btncarjl4.Text = "4 Door"
         Me.btncarjl4.UseVisualStyleBackColor = True
@@ -113,9 +117,9 @@ Partial Class CareyPartsForm
         'bncarjl2
         '
         Me.bncarjl2.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.bncarjl2.Location = New System.Drawing.Point(479, 350)
+        Me.bncarjl2.Location = New System.Drawing.Point(457, 350)
         Me.bncarjl2.Name = "bncarjl2"
-        Me.bncarjl2.Size = New System.Drawing.Size(75, 23)
+        Me.bncarjl2.Size = New System.Drawing.Size(119, 63)
         Me.bncarjl2.TabIndex = 12
         Me.bncarjl2.Text = "2 Door"
         Me.bncarjl2.UseVisualStyleBackColor = True
@@ -123,9 +127,9 @@ Partial Class CareyPartsForm
         'btncarjk4
         '
         Me.btncarjk4.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.btncarjk4.Location = New System.Drawing.Point(339, 395)
+        Me.btncarjk4.Location = New System.Drawing.Point(317, 419)
         Me.btncarjk4.Name = "btncarjk4"
-        Me.btncarjk4.Size = New System.Drawing.Size(75, 23)
+        Me.btncarjk4.Size = New System.Drawing.Size(119, 63)
         Me.btncarjk4.TabIndex = 11
         Me.btncarjk4.Text = "4 Door"
         Me.btncarjk4.UseVisualStyleBackColor = True
@@ -133,9 +137,9 @@ Partial Class CareyPartsForm
         'btncarjk2
         '
         Me.btncarjk2.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.btncarjk2.Location = New System.Drawing.Point(339, 350)
+        Me.btncarjk2.Location = New System.Drawing.Point(317, 350)
         Me.btncarjk2.Name = "btncarjk2"
-        Me.btncarjk2.Size = New System.Drawing.Size(75, 23)
+        Me.btncarjk2.Size = New System.Drawing.Size(119, 63)
         Me.btncarjk2.TabIndex = 10
         Me.btncarjk2.Text = "2 Door"
         Me.btncarjk2.UseVisualStyleBackColor = True
@@ -151,22 +155,56 @@ Partial Class CareyPartsForm
         Me.lblCarey.TabIndex = 20
         Me.lblCarey.Text = "Carey"
         '
-        'btncarhome
+        'lblnbparts
         '
-        Me.btncarhome.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.btncarhome.Location = New System.Drawing.Point(77, 609)
-        Me.btncarhome.Name = "btncarhome"
-        Me.btncarhome.Size = New System.Drawing.Size(204, 37)
-        Me.btncarhome.TabIndex = 21
-        Me.btncarhome.Text = "Customers"
-        Me.btncarhome.UseVisualStyleBackColor = True
+        Me.lblnbparts.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.lblnbparts.AutoSize = True
+        Me.lblnbparts.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblnbparts.Location = New System.Drawing.Point(402, 141)
+        Me.lblnbparts.Name = "lblnbparts"
+        Me.lblnbparts.Size = New System.Drawing.Size(364, 32)
+        Me.lblnbparts.TabIndex = 34
+        Me.lblnbparts.Text = "PART SELECTION FORM"
+        '
+        'ToolStrip1
+        '
+        Me.ToolStrip1.BackColor = System.Drawing.Color.Transparent
+        Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(50, 50)
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton1, Me.ToolStripButton2})
+        Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.ToolStrip1.Name = "ToolStrip1"
+        Me.ToolStrip1.Size = New System.Drawing.Size(1172, 57)
+        Me.ToolStrip1.TabIndex = 37
+        Me.ToolStrip1.Text = "ToolStrip1"
+        '
+        'ToolStripButton1
+        '
+        Me.ToolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButton1.Image = Global.synergyDefects2.My.Resources.Resources.icons8_people_filled_50
+        Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton1.Name = "ToolStripButton1"
+        Me.ToolStripButton1.Size = New System.Drawing.Size(54, 54)
+        Me.ToolStripButton1.Text = "ToolStripButton1"
+        Me.ToolStripButton1.ToolTipText = "Customers"
+        '
+        'ToolStripButton2
+        '
+        Me.ToolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButton2.Image = Global.synergyDefects2.My.Resources.Resources.icons8_combo_chart_filled_50
+        Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton2.Name = "ToolStripButton2"
+        Me.ToolStripButton2.Size = New System.Drawing.Size(54, 54)
+        Me.ToolStripButton2.Text = "ToolStripButton2"
+        Me.ToolStripButton2.ToolTipText = "History"
         '
         'CareyPartsForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ClientSize = New System.Drawing.Size(1172, 722)
-        Me.Controls.Add(Me.btncarhome)
+        Me.Controls.Add(Me.ToolStrip1)
+        Me.Controls.Add(Me.lblnbparts)
         Me.Controls.Add(Me.lblCarey)
         Me.Controls.Add(Me.lbHino)
         Me.Controls.Add(Me.lbKenworth)
@@ -181,6 +219,8 @@ Partial Class CareyPartsForm
         Me.Name = "CareyPartsForm"
         Me.Text = "Carey Parts"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+        Me.ToolStrip1.ResumeLayout(False)
+        Me.ToolStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -197,5 +237,8 @@ Partial Class CareyPartsForm
     Friend WithEvents btncarjk4 As Button
     Friend WithEvents btncarjk2 As Button
     Friend WithEvents lblCarey As Label
-    Friend WithEvents btncarhome As Button
+    Friend WithEvents lblnbparts As Label
+    Friend WithEvents ToolStrip1 As ToolStrip
+    Friend WithEvents ToolStripButton1 As ToolStripButton
+    Friend WithEvents ToolStripButton2 As ToolStripButton
 End Class

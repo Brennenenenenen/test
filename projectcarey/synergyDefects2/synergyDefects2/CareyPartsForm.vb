@@ -1,8 +1,4 @@
 ﻿Public Class CareyPartsForm
-    Private Sub btncarhome_Click(sender As Object, e As EventArgs) Handles btncarhome.Click
-        CustomersForm.Show()
-        Me.Close()
-    End Sub
 
     Private Sub btncarjk2_Click(sender As Object, e As EventArgs) Handles btncarjk2.Click
         carjk2form.Show()
@@ -58,4 +54,16 @@
         Me.Close()
         CustomersForm.Close()
     End Sub
+
+    Private Sub ToolStripButton1_Click(sender As Object, e As EventArgs) Handles ToolStripButton1.Click
+        CustomersForm.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub ToolStripButton2_Click(sender As Object, e As EventArgs) Handles ToolStripButton2.Click
+        loadform.Show()
+        Me.Close()
+    End Sub
+
+
 End Class
