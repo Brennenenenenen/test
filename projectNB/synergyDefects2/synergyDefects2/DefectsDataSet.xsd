@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DefectsDataSet" targetNamespace="http://tempuri.org/DefectsDataSet.xsd" xmlns:mstns="http://tempuri.org/DefectsDataSet.xsd" xmlns="http://tempuri.org/DefectsDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="DefectsConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DefectsConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.synergyDefects2.My.MySettings.GlobalReference.Default.DefectsConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tblCareyTableAdapter" GeneratorDataComponentClassName="tblCareyTableAdapter" Name="tblCarey" UserDataComponentName="tblCareyTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DefectsConnectionString (MySettings)" DbObjectName="Defects.dbo.tblCarey" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Adtech, Bacteria, Beveled_edge, Blister FROM dbo.tblCarey</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Adtech" DataSetColumn="Adtech" />
+              <Mapping SourceColumn="Bacteria" DataSetColumn="Bacteria" />
+              <Mapping SourceColumn="Beveled_edge" DataSetColumn="Beveled_edge" />
+              <Mapping SourceColumn="Blister" DataSetColumn="Blister" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DefectsDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DefectsDataSet" msprop:Generator_UserDSName="DefectsDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblCarey" msprop:Generator_TableClassName="tblCareyDataTable" msprop:Generator_TableVarName="tabletblCarey" msprop:Generator_TablePropName="tblCarey" msprop:Generator_RowDeletingName="tblCareyRowDeleting" msprop:Generator_RowChangingName="tblCareyRowChanging" msprop:Generator_RowEvHandlerName="tblCareyRowChangeEventHandler" msprop:Generator_RowDeletedName="tblCareyRowDeleted" msprop:Generator_UserTableName="tblCarey" msprop:Generator_RowChangedName="tblCareyRowChanged" msprop:Generator_RowEvArgName="tblCareyRowChangeEvent" msprop:Generator_RowClassName="tblCareyRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Adtech" msprop:Generator_ColumnVarNameInTable="columnAdtech" msprop:Generator_ColumnPropNameInRow="Adtech" msprop:Generator_ColumnPropNameInTable="AdtechColumn" msprop:Generator_UserColumnName="Adtech" type="xs:int" minOccurs="0" />
+              <xs:element name="Bacteria" msprop:Generator_ColumnVarNameInTable="columnBacteria" msprop:Generator_ColumnPropNameInRow="Bacteria" msprop:Generator_ColumnPropNameInTable="BacteriaColumn" msprop:Generator_UserColumnName="Bacteria" type="xs:int" minOccurs="0" />
+              <xs:element name="Beveled_edge" msprop:Generator_ColumnVarNameInTable="columnBeveled_edge" msprop:Generator_ColumnPropNameInRow="Beveled_edge" msprop:Generator_ColumnPropNameInTable="Beveled_edgeColumn" msprop:Generator_UserColumnName="Beveled_edge" type="xs:int" minOccurs="0" />
+              <xs:element name="Blister" msprop:Generator_ColumnVarNameInTable="columnBlister" msprop:Generator_ColumnPropNameInRow="Blister" msprop:Generator_ColumnPropNameInTable="BlisterColumn" msprop:Generator_UserColumnName="Blister" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
